@@ -1,0 +1,165 @@
+.exercise-two {
+  margin-bottom: 0;
+}
+
+.exercise-title-row {
+  display: flex;
+  align-items: end;
+  justify-content: space-between;
+  gap: 16px;
+  margin-bottom: 18px;
+}
+
+.exercise-eyebrow {
+  margin: 0 0 6px;
+  color: #65747a;
+  font-size: 0.76rem;
+  font-weight: 800;
+  letter-spacing: 0.07em;
+  text-transform: uppercase;
+}
+
+.exercise-title-row h2 {
+  margin: 0;
+  color: #213746;
+  font-family: Georgia, 'Times New Roman', serif;
+  font-size: 1.8rem;
+  line-height: 1.18;
+}
+
+.exercise-tag {
+  padding: 7px 10px;
+  border: 1px solid #c6d5cf;
+  border-radius: 3px;
+  color: #315d52;
+  background: #e7f0eb;
+  font-size: 0.75rem;
+  font-weight: 700;
+  white-space: nowrap;
+}
+
+.nest-level {
+  min-width: 0;
+  padding: 15px;
+  border: 2px solid;
+  border-radius: 4px;
+}
+
+.nest-one {
+  border-color: #c77d33;
+  background: #f9e7d0;
+}
+
+.nest-two {
+  border-color: #43827d;
+  background: #d9eeea;
+}
+
+.nest-three {
+  border-color: #6578a4;
+  background: #e0e6f3;
+}
+
+.nest-four {
+  border-color: #ad6a6e;
+  background: #f4e1df;
+}
+
+.nest-label {
+  margin: 0 0 11px;
+  color: #344852;
+  font-size: 0.76rem;
+  font-weight: 800;
+}
+
+.person-card {
+  display: flex;
+  align-items: flex-start;
+  gap: 16px;
+  padding: 18px;
+  border: 1px solid #d9d3c7;
+  border-radius: 4px;
+  color: #253c48;
+  background: #fffdf8;
+  box-shadow: 0 5px 14px rgb(36 55 68 / 8%);
+}
+
+.person-avatar {
+  display: grid;
+  width: 48px;
+  height: 48px;
+  flex: 0 0 48px;
+  place-items: center;
+  border-radius: 50%;
+  color: #fff;
+  background: #32796f;
+  font-family: Georgia, 'Times New Roman', serif;
+  font-size: 1.35rem;
+  font-weight: 700;
+}
+
+.person-card-kicker {
+  margin: 0 0 2px;
+  color: #65747a;
+  font-size: 0.72rem;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.person-card h3 {
+  margin: 0 0 12px;
+  color: #203844;
+  font-family: Georgia, 'Times New Roman', serif;
+  font-size: 1.35rem;
+}
+
+.person-card dl {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px 30px;
+  margin: 0;
+}
+
+.person-card dl div {
+  min-width: 140px;
+}
+
+.person-card dt {
+  color: #697a80;
+  font-size: 0.72rem;
+  font-weight: 700;
+}
+
+.person-card dd {
+  margin: 3px 0 0;
+  color: #263f4b;
+  font-size: 0.9rem;
+}
+
+@media (max-width: 560px) {
+  .exercise-title-row {
+    align-items: flex-start;
+  }
+
+  .exercise-title-row h2 {
+    font-size: 1.45rem;
+  }
+
+  .nest-level {
+    padding: 10px;
+  }
+
+  .person-card {
+    gap: 11px;
+    padding: 13px;
+  }
+
+  .person-card dl {
+    flex-direction: column;
+    gap: 9px;
+  }
+
+  .person-card dl div {
+    min-width: 0;
+  }
+}
