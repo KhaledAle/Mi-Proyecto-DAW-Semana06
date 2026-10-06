@@ -87,7 +87,6 @@ function Ejercicio1() {
           <p className="exercise-eyebrow">Ejercicio 1</p>
           <h2 id="exercise-one-title">Siete componentes, un layout</h2>
         </div>
-        <span className="exercise-tag">Responsive</span>
       </div>
       <div className="layout-demo">
         <HeaderComponent />

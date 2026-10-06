@@ -70,7 +70,6 @@ function Ejercicio2() {
           <p className="exercise-eyebrow">Ejercicio 2</p>
           <h2 id="exercise-two-title">Props en cadena</h2>
         </div>
-        <span className="exercise-tag">Prop drilling</span>
       </div>
       <Componente1 />
     </section>
